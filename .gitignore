@@ -3,3 +3,4 @@ personal-9894.md
 *.out
 .vscode
 .DS_STORE
+*.class

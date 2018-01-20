@@ -23,9 +23,8 @@ class Vector {
         return this.itemCount == 0;
     }
 
-    public int at(int index) {
-        if(!isValidIndex(index))
-            throw new ArrayIndexOutOfBoundsException();
+    public int at(int index) throws ArrayIndexOutOfBoundsException {
+        this.indexCheck(index);
         return this.items[index];
     }
 
@@ -35,7 +34,8 @@ class Vector {
         this.items[this.itemCount++] = item;
     }
 
-    public void insert(int index, int item) {
+    public void insert(int index, int item) throws ArrayIndexOutOfBoundsException{
+        this.indexCheck(index);
         if (this.isFull()) 
             this.resize(this.capacity * this.resizeFactor);
         for(int i = this.itemCount + 1; i >= index; i--) {
@@ -53,7 +53,8 @@ class Vector {
         return this.items[this.itemCount--];
     }
 
-    public void delete(int index) {
+    public void delete(int index) throws ArrayIndexOutOfBoundsException {
+        this.indexCheck(index);
         for(int i = index; i < this.itemCount; i++) {
             this.items[i] = this.items[i + 1];
         }
@@ -73,6 +74,10 @@ class Vector {
         this.delete(index);
     }
 
+    private void indexCheck(int index) throws ArrayIndexOutOfBoundsException {
+        if(!isValidIndex(index))
+            throw new ArrayIndexOutOfBoundsException();
+    } 
     private boolean isValidIndex(int index) {
         return index > 0 && index <= this.capacity;
     }
