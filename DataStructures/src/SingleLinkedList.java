@@ -61,19 +61,6 @@ public class SingleLinkedList {
         return this.tail.data; 
     }
 
-
-
-    public static void main(String[] args) {
-        SingleLinkedList ll = new SingleLinkedList(1);
-        ll.isEmpty();
-        ll.size();
-        ll.pushFront(2);
-        ll.popFront();
-        ll.pushBack(2);
-        ll.popBack();
-    }
-
-
     private class LinkNode {
         private Integer data;
         private LinkNode next;

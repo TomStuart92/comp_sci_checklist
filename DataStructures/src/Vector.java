@@ -38,9 +38,7 @@ class Vector {
         this.indexCheck(index);
         if (this.isFull()) 
             this.resize(this.capacity * this.resizeFactor);
-        for(int i = this.itemCount + 1; i >= index; i--) {
-            this.items[i] = this.items[i-1];
-        }
+        System.arraycopy(this.items, index, this.items, index + 1, this.itemCount - index);
         this.items[index] = item;
         this.itemCount += 1;
     }
@@ -50,14 +48,14 @@ class Vector {
     }
 
     public int pop() {
-        return this.items[this.itemCount--];
+        int value = this.items[this.itemCount -1];
+        this.delete(0);
+        return value;
     }
 
     public void delete(int index) throws ArrayIndexOutOfBoundsException {
         this.indexCheck(index);
-        for(int i = index; i < this.itemCount; i++) {
-            this.items[i] = this.items[i + 1];
-        }
+        System.arraycopy(this.items, index + 1, this.items, index, this.itemCount - 1 - index);
         this.itemCount -= 1;
     }
 
@@ -79,7 +77,7 @@ class Vector {
             throw new ArrayIndexOutOfBoundsException();
     } 
     private boolean isValidIndex(int index) {
-        return index > 0 && index <= this.capacity;
+        return index >= 0 && index <= this.capacity;
     }
 
     private boolean isFull() {
@@ -89,9 +87,7 @@ class Vector {
     private void resize(int newCapacity) {
         assert newCapacity > this.capacity;
         int[] temp = new int[newCapacity];
-        for (int i = 0; i < this.capacity; i++) {
-            temp[i] = this.items[i];
-        }
+        System.arraycopy(this.items, 0, temp, 0, this.capacity);
         this.items = temp;
         this.capacity = newCapacity;
     }
