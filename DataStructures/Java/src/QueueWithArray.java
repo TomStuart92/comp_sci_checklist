@@ -1,6 +1,3 @@
-import java.awt.image.IndexColorModel;
-import java.util.function.IntBinaryOperator;
-
 public class QueueWithArray {
   private int[] queue;
   private int capacity;
