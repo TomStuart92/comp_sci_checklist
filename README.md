@@ -120,10 +120,10 @@ I'm using this set of checkpoints forked from [here](https://github.com/jwasham/
     - [X] [Queue (video)](https://www.coursera.org/learn/data-structures/lecture/EShpq/queue)
     - [X] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
     - [X] [Priority Queues (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Priority-queues-deques/149042/177123-4.html)
-    - [ ] Implement using linked-list, with tail pointer:
-        - enqueue(value) - adds value at position at tail
-        - dequeue() - returns value and removes least recently added element (front)
-        - empty()
+    - [X] Implement using linked-list, with tail pointer:
+        - [x] enqueue(value) - adds value at position at tail
+        - [x] dequeue() - returns value and removes least recently added element (front)
+        - [x] empty()
     - [X] Implement using fixed-sized array:
         - [X] enqueue(value) - adds item at end of available storage
         - [X] dequeue() - returns value and removes least recently added element
