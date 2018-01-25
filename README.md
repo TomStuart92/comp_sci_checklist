@@ -108,7 +108,7 @@ I'm using this set of checkpoints forked from [here](https://github.com/jwasham/
     - [X] [Using Stacks Last-In First-Out (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-stacks-last-first-out/149042/177120-4.html)
     - [X] implement (trivial with standard array, use linked list if need dynamic size):
         - [X] empty() - bool returns true if empty
-        - [ ] pop() - removes top item
+        - [X] pop() - removes top item
         - [X] top() - returns top item
         - [X] size() - returns number of items in stack
         - [X] capacity() - returns capacity of stack
@@ -116,20 +116,20 @@ I'm using this set of checkpoints forked from [here](https://github.com/jwasham/
         - [X] isFull() = bool returns true if full
         
 - ### Queue
-    - [ ] [Using Queues First-In First-Out(video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-queues-first-first-out/149042/177122-4.html)
-    - [ ] [Queue (video)](https://www.coursera.org/learn/data-structures/lecture/EShpq/queue)
-    - [ ] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
-    - [ ] [Priority Queues (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Priority-queues-deques/149042/177123-4.html)
+    - [X] [Using Queues First-In First-Out(video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-queues-first-first-out/149042/177122-4.html)
+    - [X] [Queue (video)](https://www.coursera.org/learn/data-structures/lecture/EShpq/queue)
+    - [X] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
+    - [X] [Priority Queues (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Priority-queues-deques/149042/177123-4.html)
     - [ ] Implement using linked-list, with tail pointer:
         - enqueue(value) - adds value at position at tail
         - dequeue() - returns value and removes least recently added element (front)
         - empty()
-    - [ ] Implement using fixed-sized array:
-        - enqueue(value) - adds item at end of available storage
-        - dequeue() - returns value and removes least recently added element
-        - empty()
-        - full()
-    - [ ] Cost:
+    - [X] Implement using fixed-sized array:
+        - [X] enqueue(value) - adds item at end of available storage
+        - [X] dequeue() - returns value and removes least recently added element
+        - [X] empty()
+        - [X] full()
+    - [X] Cost:
         - a bad implementation using linked list where you enqueue at head and dequeue at tail would be O(n)
             because you'd need the next to last element, causing a full traversal each dequeue
         - enqueue: O(1) (amortized, linked list and array [probing])

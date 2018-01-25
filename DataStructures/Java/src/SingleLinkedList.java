@@ -1,5 +1,3 @@
-// import SingleLinkedList.LinkNode;
-
 public class SingleLinkedList {
     private LinkNode head;
     private LinkNode tail;
