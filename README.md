@@ -3,9 +3,9 @@
 I'm using this set of checkpoints forked from [here](https://github.com/jwasham/coding-interview-university) to add some structure to my learning. Follow along. 
 
 ## Prerequisite Knowledge
-- [ ] **Learn C**
+- [X] **Learn C**
     - C is everywhere. You'll see examples in books, lectures, videos, *everywhere* while you're studying.
-    - [ ] [C Programming Language, Vol 2](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628)
+    - [X] [C Programming Language, Vol 2](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628)
         - This is a short book, but it will give you a great handle on the C language and if you practice it a little 
             you'll quickly get proficient. Understanding C helps you understand how programs and memory work.
         - [answers to questions](https://github.com/lekkas/c-algorithms) 
