@@ -157,12 +157,12 @@ I'm using this set of checkpoints forked from [here](https://github.com/jwasham/
             - [X] [Instant Uploads And Storage Optimization In Dropbox (video)](https://www.coursera.org/learn/data-structures/lecture/DvaIb/instant-uploads-and-storage-optimization-in-dropbox)
             - [X] [Distributed Hash Tables (video)](https://www.coursera.org/learn/data-structures/lecture/tvH8H/distributed-hash-tables)
 
-    - [ ] Implement with array using linear probing
-        - hash(k, m) - m is size of hash table
-        - add(key, value) - if key already exists, update value
-        - exists(key)
-        - get(key)
-        - remove(key)
+    - [X] Implement with array using linear probing
+        - [X] hash(k, m) - m is size of hash table
+        - [X] add(key, value) - if key already exists, update value
+        - [X] exists(key)
+        - [X] get(key)
+        - [X] remove(key)
 
 ## More Knowledge
 

@@ -1,7 +1,3 @@
-import org.apache.commons.math3.primes.Primes;
-
-import java.util.concurrent.ThreadLocalRandom;
-
 class DictionaryWithOpenAddressing {
     private UniversalHash hashFunction;
     private DictionaryEntry[] data;
@@ -18,19 +14,35 @@ class DictionaryWithOpenAddressing {
         this.attemptInsert(newEntry, 0);
     }
 
-    public int get(int key) {
-        return this.attemptGet(key, 0);
+    public Integer get(int key) {
+        Integer index = this.attemptGet(key, 0);
+        if (index != null)
+            return this.data[index].value();
+        return null;
     }
 
-    private int attemptGet(int key, int trial) throws Error {
-        if (trial >= this.capacity) {
-            throw new Error("Key Not Found");
+    public void remove(int key) {
+        Integer index = this.attemptGet(key, 0);
+        if (index == null)
+            throw new Error("Key Does Not Exist");
+        this.data[index] = new DictionaryEntry(null, null);
+    }
+
+    public boolean exists(int key) {
+        return this.get(key) != null;
+    }
+
+    private Integer attemptGet(int key, int trial) throws Error {
+        if (trial > this.capacity) {
+            return null;
         }
         int hashCode = (this.hashFunction.hash(key) + trial) % (this.capacity);
-        if (this.data[hashCode] == null) {
-            return this.data[hashCode].value();
-        }
-        return this.attemptGet(key, trial + 1);
+        DictionaryEntry entry = this.data[hashCode];
+        if (entry == null)
+            return null;
+        if (entry.key() == null || entry.key() != key)
+            return this.attemptGet(key, trial + 1);
+        return hashCode;
     }
 
     private void attemptInsert(DictionaryEntry entry, int trial) throws Error {
@@ -39,7 +51,7 @@ class DictionaryWithOpenAddressing {
         }
         int hashCode = (this.hashFunction.hash(entry.key) + trial) % (this.capacity);
 
-        if (this.data[hashCode] == null) {
+        if (this.data[hashCode] == null || this.data[hashCode].key() == null) {
             this.data[hashCode] = entry;
             return;
         }
@@ -47,25 +59,19 @@ class DictionaryWithOpenAddressing {
     }
 
     private class DictionaryEntry {
-        private int key;
-        private int value;
-        private boolean isDeleted;
+        private Integer key;
+        private Integer value;
 
-        DictionaryEntry(int key, int value) {
+        DictionaryEntry(Integer key, Integer value) {
             this.key = key;
             this.value = value;
-            this.isDeleted = false;
         }
 
-        public void setDeleted() {
-            this.isDeleted = true;
-        }
-
-        public int key() {
+        Integer key() {
             return this.key;
         }
 
-        public int value() {
+        Integer value() {
             return this.value;
         }
 
