@@ -167,12 +167,11 @@ I'm using this set of checkpoints forked from [here](https://github.com/jwasham/
 ## More Knowledge
 
 - ### Binary search
-    - [ ] [Binary Search (video)](https://www.youtube.com/watch?v=D5SrAga1pno)
-    - [ ] [Binary Search (video)](https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search)
-    - [ ] [detail](https://www.topcoder.com/community/data-science/data-science-tutorials/binary-search/)
-    - [ ] Implement:
-        - binary search (on sorted array of integers)
-        - binary search using recursion
+    - [X] [Binary Search (video)](https://www.youtube.com/watch?v=D5SrAga1pno)
+    - [X] [Binary Search (video)](https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search)
+    - [X] [detail](https://www.topcoder.com/community/data-science/data-science-tutorials/binary-search/)
+    - [X] Implement:
+        - [ ] Binary search (on sorted array of integers) using recursion
 
 - ### Bitwise operations
     - [ ] [Bits cheat sheet](https://github.com/jwasham/google-interview-university/blob/master/extras/cheat%20sheets/bits-cheat-cheet.pdf) - you should know many of the powers of 2 from (2^1 to 2^16 and 2^32)
@@ -1430,11 +1429,8 @@ Sit back and enjoy. "netflix and skill" :P
     - [Go at Google: Language Design in the Service of Software Engineering](https://talks.golang.org/2012/splash.article)
     - [Go Proverbs](http://go-proverbs.github.io/)
     - [Go Proverbs - Rob Pike (video)](https://www.youtube.com/watch?v=PAAkCSZUG1c)
-- Other Language 1
-- Other Language 2
-- etc
 
 ## Other Things I've Stumbled Upon
 
 - protoBuffers [video](https://developers.google.com/protocol-buffers/)
-- RpC
+- RPC
