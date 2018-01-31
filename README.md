@@ -171,7 +171,7 @@ I'm using this set of checkpoints forked from [here](https://github.com/jwasham/
     - [X] [Binary Search (video)](https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search)
     - [X] [detail](https://www.topcoder.com/community/data-science/data-science-tutorials/binary-search/)
     - [X] Implement:
-        - [ ] Binary search (on sorted array of integers) using recursion
+        - [X] Binary search (on sorted array of integers) using recursion
 
 - ### Bitwise operations
     - [X] [Bits cheat sheet](https://github.com/jwasham/google-interview-university/blob/master/extras/cheat%20sheets/bits-cheat-cheet.pdf) - you should know many of the powers of 2 from (2^1 to 2^16 and 2^32)
