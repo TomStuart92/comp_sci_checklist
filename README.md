@@ -206,8 +206,8 @@ I'm using this set of checkpoints forked from [here](https://github.com/jwasham/
     - [X] [Series: Trees (video)](https://www.coursera.org/learn/data-structures/lecture/95qda/trees)
     - [X] BFS (breadth-first search)
         - [X] [MIT (video)](https://www.youtube.com/watch?v=s-CYnVz-uh4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=13)
-    - [ ] DFS (depth-first search)
-        - [ ] [MIT (video)](https://www.youtube.com/watch?v=AfSk24UTFS8&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=14)
+    - [X] DFS (depth-first search)
+        - [X] [MIT (video)](https://www.youtube.com/watch?v=AfSk24UTFS8&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=14)
         - [X] search order
             - inorder (DFS: left, self, right)
             - postorder (DFS: left, right, self)
