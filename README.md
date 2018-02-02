@@ -189,9 +189,9 @@ I'm using this set of checkpoints forked from [here](https://github.com/jwasham/
         - [X] [1s Complement](https://en.wikipedia.org/wiki/Ones%27_complement)
         - [X] [2s Complement](https://en.wikipedia.org/wiki/Two%27s_complement)
     - [X] count set bits
-        - [X][4 ways to count bits in a byte (video)](https://youtu.be/Hzuzo9NJrlc)
-        - [X][Count Bits](https://graphics.stanford.edu/~seander/bithacks.html#CountBitsSetKernighan)
-        - [X][How To Count The Number Of Set Bits In a 32 Bit Integer](http://stackoverflow.com/questions/109023/how-to-count-the-number-of-set-bits-in-a-32-bit-integer)
+        - [X] [4 ways to count bits in a byte (video)](https://youtu.be/Hzuzo9NJrlc)
+        - [X] [Count Bits](https://graphics.stanford.edu/~seander/bithacks.html#CountBitsSetKernighan)
+        - [X] [How To Count The Number Of Set Bits In a 32 Bit Integer](http://stackoverflow.com/questions/109023/how-to-count-the-number-of-set-bits-in-a-32-bit-integer)
     - [X] round to next power of 2:
         - [Round Up To Next Power Of Two](http://bits.stephan-brumme.com/roundUpToNextPowerOfTwo.html)
     - [X] swap values:
