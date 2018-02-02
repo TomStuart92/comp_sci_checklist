@@ -54,7 +54,7 @@ void FrontBackSplit(struct Node* source, struct Node** frontRef, struct Node** b
     slow = source;
     fast = source->next;
 
-    // move fast twice as fast as slow. When fast = end, slow = mid;
+    // move fast twice as fast as slow. When fast = end, slow->next = mid;
     while(fast != NULL) {
       fast = fast->next;
       if(fast != NULL) {
