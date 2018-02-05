@@ -1,4 +1,6 @@
-import java.util.*;
+import java.util.LinkedList;
+import java.util.Vector;
+import java.util.Stack;
 
 public class DepthFirstSearch {
     private int numberOfVertices;
