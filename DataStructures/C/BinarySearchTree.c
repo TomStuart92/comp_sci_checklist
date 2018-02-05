@@ -12,6 +12,7 @@ struct node
 
 struct node* newNode(int key);
 struct node* insert(struct node* currentNode, int key);
+struct node* search(struct node* currentNode, int key);
 void print(struct node*);
 
 struct node *newNode(int key) 
@@ -38,6 +39,19 @@ struct node* insert(struct node* currentNode, int key)
   return currentNode; 
 }
 
+struct node* search(struct node* currentNode, int key)
+{
+  if(currentNode == NULL)
+    return NULL;
+
+  if(currentNode->key == key)
+    return currentNode;
+  else if(key < currentNode->key)  
+    return search(currentNode->leftChild, key);
+  else 
+    return search(currentNode->rightChild, key);
+}
+
 void print(struct node* current) 
 {
   if (current != NULL) {
@@ -56,6 +70,6 @@ int main()
   insert(root, 4);
   insert(root, 0);
   print(root);
-
+  search(root, 3);
   return 0;
 }
