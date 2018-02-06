@@ -1,14 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-
-struct node 
-{
-    int key;
-    struct node *parent;
-    struct node *leftChild;
-    struct node *rightChild;
-};
-
+#include "Queue.h"
 
 struct node* newNode(int key);
 struct node* insert(struct node* currentNode, int key);
@@ -55,12 +47,12 @@ struct node* search(struct node* currentNode, int key)
     return search(currentNode->rightChild, key);
 }
 
-void print(struct node* current) 
+void print(struct node* currentNode) 
 {
-  if (current != NULL) {
-    print(current->leftChild);
-    printf("key: %d \n",current->key);  
-    print(current->rightChild);
+  if (currentNode != NULL) {
+    print(currentNode->leftChild);
+    printf("key: %d \n",currentNode->key);  
+    print(currentNode->rightChild);
   }
 }
 
@@ -86,6 +78,44 @@ int height(struct node* currentNode)
   return rightHeight > leftHeight ? rightHeight + 1 : leftHeight + 1;
 }
 
+void BFS(struct node* currentNode)
+{
+  if(currentNode == NULL) return;
+  struct Queue* queue = createQueue(1000);
+  enqueue(queue, currentNode);
+  while(!isEmpty(queue)) {
+    struct node* current = front(queue);
+    printf("key: %d \n", current->key);
+    if(current->leftChild != NULL) enqueue(queue, current->leftChild);
+    if(current->rightChild != NULL) enqueue(queue, current->rightChild);
+    dequeue(queue);
+  }
+}
+
+void DFS(struct node* currentNode)
+{
+  // preorder traversal
+  if(currentNode == NULL)
+    return;
+  printf("key: %d \n",currentNode->key);
+  DFS(currentNode->leftChild);
+  DFS(currentNode->rightChild);
+}
+
+int isBST(struct node* currentNode)
+{
+  if(currentNode == NULL) {
+    return 0;
+  }
+  if(currentNode->leftChild != NULL && currentNode->key < currentNode->leftChild->key) {
+    return 1;
+  }
+  if(currentNode->rightChild != NULL && currentNode->key > currentNode->rightChild->key) {
+    return 1;
+  }
+  return isBST(currentNode->leftChild) + isBST(currentNode->rightChild);
+}
+
 int main() 
 {
   struct node *root = NULL;
@@ -99,5 +129,10 @@ int main()
   printf("min value: %d \n", min(root));
   printf("max value: %d \n", max(root));
   printf("height: %d \n", height(root));
+  printf("Breadth First Search \n");
+  BFS(root);
+  printf("Depth First Search \n");
+  DFS(root);
+  printf("isbst: %d \n", isBST(root));
   return 0;
 }
