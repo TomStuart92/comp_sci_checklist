@@ -1,10 +1,10 @@
 public class Stack {
-    private int[] stack;
+    private Object[] stack;
     private int capacity;
     private int size;
 
     Stack(int capacity) {
-        this.stack = new int[capacity];
+        this.stack = new Object[capacity];
         this.capacity = capacity;
         this.size = 0;
     }
@@ -34,13 +34,15 @@ public class Stack {
     public int top() throws Error {
         if(this.isEmpty())
             throw new Error("Stack Empty");
-        return this.stack[this.size - 1];
+        return (int) this.stack[this.size - 1];
     }
 
     public int pop() throws Error {
         if(this.isEmpty())
             throw new Error("Stack Empty");
-        return this.stack[--this.size];
+        int result = (int) this.stack[--this.size];
+        this.stack[size] = null;
+        return result;
     }
 }
 
