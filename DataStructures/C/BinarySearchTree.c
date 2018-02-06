@@ -7,8 +7,14 @@ struct node* insert(struct node* currentNode, int key);
 struct node* search(struct node* currentNode, int key);
 void print(struct node*);
 int min(struct node* currentNode);
+struct node* findMin(struct node* currentNode);
 int max(struct node* currentNode);
 int height(struct node* currentNode);
+void DFS(struct node* currentNode);
+void BFS(struct node* currentNode);
+int isBST(struct node* currentNode);
+struct node* delete(struct node* currentNode, int key);
+struct node* successor(struct node* currentNode, int key);
 
 struct node *newNode(int key) 
 {
@@ -38,7 +44,6 @@ struct node* search(struct node* currentNode, int key)
 {
   if(currentNode == NULL)
     return NULL;
-
   if(currentNode->key == key)
     return currentNode;
   else if(key < currentNode->key)  
@@ -62,6 +67,15 @@ int min(struct node* currentNode)
     return min(currentNode->leftChild);
   return currentNode->key;
 }
+
+struct node* findMin(struct node* currentNode) 
+{
+  if(currentNode->leftChild != NULL)
+    return findMin(currentNode->leftChild);
+  return currentNode;
+}
+
+
 int max(struct node* currentNode) 
 {
   if(currentNode->rightChild != NULL)
@@ -116,6 +130,64 @@ int isBST(struct node* currentNode)
   return isBST(currentNode->leftChild) + isBST(currentNode->rightChild);
 }
 
+struct node* delete(struct node* currentNode, int key)
+{
+  if(currentNode == NULL) return currentNode;
+  else if (key < currentNode->key) currentNode->leftChild = delete(currentNode->leftChild, key);
+  else if (key > currentNode->key) currentNode->rightChild = delete(currentNode->rightChild, key);
+  else {
+    //case 1: no child
+    if (currentNode->leftChild == NULL && currentNode->rightChild == NULL) {
+      free(currentNode);
+      currentNode = NULL;
+    }
+
+    //case 2: 1 child
+    else if (currentNode->leftChild == NULL) {
+      struct node* temp = currentNode;
+      currentNode = currentNode->rightChild;
+      free(currentNode);
+    }
+
+    else if (currentNode->rightChild == NULL) {
+      struct node* temp = currentNode;
+      currentNode = currentNode->leftChild;
+      free(currentNode);
+    }
+
+    //case 3: 2 children
+    else {
+      struct node* temp = findMin(currentNode->rightChild);
+      currentNode->key = temp->key;
+      currentNode->rightChild = delete(currentNode->rightChild, temp->key);
+    }
+  }
+  return currentNode; 
+}
+
+struct node* successor(struct node* currentNode, int key)
+{
+  struct node* targetNode = search(currentNode, key);
+  if (targetNode == NULL) return NULL;
+
+  // case 1: target has right child.
+  if (targetNode->rightChild != NULL) return findMin(targetNode->rightChild);
+
+  // case 2: no right subtree.
+  else {
+    struct node* successor = NULL;
+    struct node* ancestor = currentNode;
+    while(ancestor != currentNode) {
+      if(currentNode->key < ancestor->key) {
+        successor = ancestor;
+        ancestor = ancestor->leftChild;
+      } else 
+        ancestor = ancestor->rightChild;
+    }
+    return successor;
+  }
+}
+
 int main() 
 {
   struct node *root = NULL;
@@ -134,5 +206,7 @@ int main()
   printf("Depth First Search \n");
   DFS(root);
   printf("isbst: %d \n", isBST(root));
+  delete(root, 3);
+  printf("successor to 2: %d \n", successor(root, 2)->key);
   return 0;
 }
