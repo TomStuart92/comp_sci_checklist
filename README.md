@@ -245,11 +245,11 @@ I'm using this set of checkpoints forked from [here](https://github.com/jwasham/
 
 - ### Heap / Priority Queue / Binary Heap
     - visualized as a tree, but is usually linear in storage (array, linked list)
-    - [ ] [Heap](https://en.wikipedia.org/wiki/Heap_(data_structure))
-    - [ ] [Introduction (video)](https://www.coursera.org/learn/data-structures/lecture/2OpTs/introduction)
-    - [ ] [Naive Implementations (video)](https://www.coursera.org/learn/data-structures/lecture/z3l9N/naive-implementations)
-    - [ ] [Binary Trees (video)](https://www.coursera.org/learn/data-structures/lecture/GRV2q/binary-trees)
-    - [ ] [Tree Height Remark (video)](https://www.coursera.org/learn/data-structures/supplement/S5xxz/tree-height-remark)
+    - [X] [Heap](https://en.wikipedia.org/wiki/Heap_(data_structure))
+    - [X] [Introduction (video)](https://www.coursera.org/learn/data-structures/lecture/2OpTs/introduction)
+    - [X] [Naive Implementations (video)](https://www.coursera.org/learn/data-structures/lecture/z3l9N/naive-implementations)
+    - [X] [Binary Trees (video)](https://www.coursera.org/learn/data-structures/lecture/GRV2q/binary-trees)
+    - [X] [Tree Height Remark (video)](https://www.coursera.org/learn/data-structures/supplement/S5xxz/tree-height-remark)
     - [ ] [Basic Operations (video)](https://www.coursera.org/learn/data-structures/lecture/0g1dl/basic-operations)
     - [ ] [Complete Binary Trees (video)](https://www.coursera.org/learn/data-structures/lecture/gl5Ni/complete-binary-trees)
     - [ ] [Pseudocode (video)](https://www.coursera.org/learn/data-structures/lecture/HxQo9/pseudocode)
@@ -1423,3 +1423,5 @@ Sit back and enjoy. "netflix and skill" :P
 
 - protoBuffers [video](https://developers.google.com/protocol-buffers/)
 - RPC
+- Prims Algorithm
+- Huffmans Algorith
