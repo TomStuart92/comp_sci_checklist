@@ -16,7 +16,7 @@ int isBST(struct node* currentNode);
 struct node* delete(struct node* currentNode, int key);
 struct node* successor(struct node* currentNode, int key);
 
-struct node *newNode(int key) 
+struct node* newNode(int key) 
 {
   struct node *newNode = (struct node*) malloc(sizeof(struct node));
   newNode->key = key;
