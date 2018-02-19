@@ -286,19 +286,10 @@ I'm using this set of checkpoints forked from [here](https://github.com/jwasham/
         - [X] search
 
 - ### Balanced search trees
-    - [ ] [Self-balancing binary search tree](https://en.wikipedia.org/wiki/Self-balancing_binary_search_tree)
+    - [X] [Self-balancing binary search tree](https://en.wikipedia.org/wiki/Self-balancing_binary_search_tree)
     - "Among balanced search trees,  AVL and 2/3 trees are now passé, and red-black trees seem to be more popular.
         A particularly interesting self-organizing data structure is the splay tree, which uses rotations
         to move any accessed key to the root." - Skiena
-    - Implement:
-        - [ ] splay tree: 
-            - [ ] insert 
-            - [ ] search 
-            - [ ] delete
-        - [ ] red/black tree:
-            - [ ] insert 
-            - [ ] search
-
     - [ ] **AVL trees**
         - In practice:
             From what I can tell, these aren't used much in practice, but I could see where they would be:
@@ -306,10 +297,14 @@ I'm using this set of checkpoints forked from [here](https://github.com/jwasham/
             balanced than red–black trees, leading to slower insertion and removal but faster retrieval. This makes it
             attractive for data structures that may be built once and loaded without reconstruction, such as language
             dictionaries (or program dictionaries, such as the opcodes of an assembler or interpreter).
+        - [X] [AVL Trees (video)](https://www.coursera.org/learn/data-structures/lecture/Qq5E0/avl-trees)
+        - [X] [AVL Tree Implementation (video)](https://www.coursera.org/learn/data-structures/lecture/PKEBC/avl-tree-implementation)
+        - [X] [Split And Merge](https://www.coursera.org/learn/data-structures/lecture/22BgE/split-and-merge)
         - [ ] [MIT AVL Trees / AVL Sort (video)](https://www.youtube.com/watch?v=FNeL18KsWPc&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=6)
-        - [ ] [AVL Trees (video)](https://www.coursera.org/learn/data-structures/lecture/Qq5E0/avl-trees)
-        - [ ] [AVL Tree Implementation (video)](https://www.coursera.org/learn/data-structures/lecture/PKEBC/avl-tree-implementation)
-        - [ ] [Split And Merge](https://www.coursera.org/learn/data-structures/lecture/22BgE/split-and-merge)
+    - [X] Implement:
+        - [X] insert
+        - [X] search
+        - [X] delete
 
     - [ ] **Splay trees**
         - In practice:
@@ -320,7 +315,10 @@ I'm using this set of checkpoints forked from [here](https://github.com/jwasham/
         - [ ] MIT Lecture: Splay Trees:
             - Gets very mathy, but watch the last 10 minutes for sure.
             - [Video](https://www.youtube.com/watch?v=QnPl_Y6EqMo)
-
+        - Implement:
+            - [ ] insert 
+            - [ ] search 
+            - [ ] delete
     - [ ] **2-3 search trees**
         - In practice:
             2-3 trees have faster inserts at the expense of slower searches (since height is more compared to AVL trees).
@@ -368,6 +366,9 @@ I'm using this set of checkpoints forked from [here](https://github.com/jwasham/
         - [ ] [Aduni - Algorithms - Lecture 5 (video)](https://www.youtube.com/watch?v=hm2GHwyKF1o&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=5)
         - [ ] [Black Tree](https://en.wikipedia.org/wiki/Red%E2%80%93black_tree)
         - [ ] [An Introduction To Binary Search And Red Black Tree](https://www.topcoder.com/community/data-science/data-science-tutorials/an-introduction-to-binary-search-and-red-black-trees/)
+        - Implement:
+            - [ ] insert 
+            - [ ] search
 
 - ### N-ary (K-ary, M-ary) trees
     - note: the N or K is the branching factor (max branches)
