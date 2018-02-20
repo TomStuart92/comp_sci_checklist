@@ -290,7 +290,7 @@ I'm using this set of checkpoints forked from [here](https://github.com/jwasham/
     - "Among balanced search trees,  AVL and 2/3 trees are now passé, and red-black trees seem to be more popular.
         A particularly interesting self-organizing data structure is the splay tree, which uses rotations
         to move any accessed key to the root." - Skiena
-    - [ ] **AVL trees**
+    - [X] **AVL trees**
         - In practice:
             From what I can tell, these aren't used much in practice, but I could see where they would be:
             The AVL tree is another structure supporting O(log n) search, insertion, and removal. It is more rigidly
@@ -300,7 +300,7 @@ I'm using this set of checkpoints forked from [here](https://github.com/jwasham/
         - [X] [AVL Trees (video)](https://www.coursera.org/learn/data-structures/lecture/Qq5E0/avl-trees)
         - [X] [AVL Tree Implementation (video)](https://www.coursera.org/learn/data-structures/lecture/PKEBC/avl-tree-implementation)
         - [X] [Split And Merge](https://www.coursera.org/learn/data-structures/lecture/22BgE/split-and-merge)
-        - [ ] [MIT AVL Trees / AVL Sort (video)](https://www.youtube.com/watch?v=FNeL18KsWPc&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=6)
+        - [X] [MIT AVL Trees / AVL Sort (video)](https://www.youtube.com/watch?v=FNeL18KsWPc&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=6)
     - [X] Implement:
         - [X] insert
         - [X] search
