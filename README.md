@@ -1420,7 +1420,9 @@ Sit back and enjoy. "netflix and skill" :P
 ## Other Things I've Stumbled Upon
 
 - protoBuffers [video](https://developers.google.com/protocol-buffers/)
-- RPC
+- [X] RPC
+    - [X] [Background](https://en.wikipedia.org/wiki/Remote_procedure_call)
+    - [X] Implement
 - Prims Algorithm
 - Huffmans Algorithm
 - Web sockets

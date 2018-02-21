@@ -1,0 +1,44 @@
+syntax = "proto3";
+package routeguide;
+
+service RouteGuide {
+  //Obtain Feature at a given point.
+  rpc GetFeature(Point) returns (Feature) {}
+
+  //Stream all features within Rectangle
+  rpc ListFeatures(Rectangle) returns (stream Feature) {}
+
+  //Accepts stream of Points to record journey
+  rpc RecordRoute(stream Point) returns (RouteSummary) {}
+
+  // // Connects two sets of RouteNotes
+  rpc RouteChat(stream RouteNote) returns (stream RouteNote) {}
+}
+
+message Point {
+  int32 latitude = 1;
+  int32 longitude = 2;
+}
+
+message Rectangle {
+  // Just record bottom-left & top-right corners
+  Point lo = 1;
+  Point hi = 2;
+}
+
+message Feature {
+  string name = 1;
+  Point location = 2;
+}
+
+message RouteNote {
+  Point location = 1;
+  string message = 2;
+}
+
+message RouteSummary {
+  int32 pointCount = 1;
+  int32 featureCount = 2;
+  int32 distance = 3;
+  int32 elapsedTime = 4;
+}

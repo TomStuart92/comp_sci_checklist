@@ -13,7 +13,7 @@ struct Node* leftRotate(struct Node* x);
 struct Node* splay(struct Node* root, int key);
 struct Node* insert(struct Node* root, int k);
 void preOrder(struct Node* root);
-struct Node* deleteNode(struct Node* root, int key); 
+struct Node* delete(struct Node* root, int key); 
 
 struct Node* newNode(int key) 
 {
@@ -116,7 +116,7 @@ void preOrder(struct Node *root)
     }
 }
 
-struct Node* deleteNode(struct Node* root, int key) 
+struct Node* delete(struct Node* root, int key) 
 {
   if(!root) return NULL;
 
@@ -151,7 +151,7 @@ int main()
     root->left->left->left = newNode(30);
     root->left->left->left->left = newNode(20);
     root = insert(root, 25);
-    root = deleteNode(root, 40);
+    root = delete(root, 40);
     printf("Preorder traversal of the modified Splay tree is \n");
     preOrder(root);
     return 0;
