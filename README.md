@@ -300,7 +300,7 @@ I'm using this set of checkpoints forked from [here](https://github.com/jwasham/
         - [X] [AVL Trees (video)](https://www.coursera.org/learn/data-structures/lecture/Qq5E0/avl-trees)
         - [X] [AVL Tree Implementation (video)](https://www.coursera.org/learn/data-structures/lecture/PKEBC/avl-tree-implementation)
         - [X] [Split And Merge](https://www.coursera.org/learn/data-structures/lecture/22BgE/split-and-merge)
-        - [X] [MIT AVL Trees / AVL Sort (video)](https://www.youtube.com/watch?v=FNeL18KsWPc&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=6)
+        - [X] [MIT AVL Trees / AVL Sort (video)](https://www.youube.com/watch?v=FNeL18KsWPc&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=6)
     - [X] Implement:
         - [X] insert
         - [X] search
@@ -352,8 +352,9 @@ I'm using this set of checkpoints forked from [here](https://github.com/jwasham/
                 - covers cache-oblivious B-Trees, very interesting data structures
                 - the first 37 minutes are very technical, may be skipped (B is block size, cache line size)
         - Implement:
-            - [ ] insert 
-            - [ ] search
+            - [X] insert 
+            - [X] delete
+            - [X] search
 
     - [ ] **Red/black trees**
         - In practice:
