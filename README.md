@@ -355,7 +355,7 @@ I'm using this set of checkpoints forked from [here](https://github.com/jwasham/
             - [X] delete
             - [X] search
 
-    - [ ] **Red/black trees**
+    - [X] **Red/black trees**
         - In practice:
             Red–black trees offer worst-case guarantees for insertion time, deletion time, and search time.
             Not only does this make them valuable in time-sensitive applications such as real-time applications,
@@ -364,20 +364,20 @@ I'm using this set of checkpoints forked from [here](https://github.com/jwasham/
             the Completely Fair Scheduler used in current Linux kernels uses red–black trees. In the version 8 of Java,
             the Collection HashMap has been modified such that instead of using a LinkedList to store identical elements with poor
             hashcodes, a Red-Black tree is used.
-        - [ ] [Aduni - Algorithms - Lecture 4
+        - [X] [Red Black Tree](https://en.wikipedia.org/wiki/Red%E2%80%93black_tree)
+        - [X] [An Introduction To Binary Search And Red Black Tree](https://www.topcoder.com/community/data-science/data-science-tutorials/an-introduction-to-binary-search-and-red-black-trees/)
+        - [X] [Aduni - Algorithms - Lecture 4
             (link jumps to starting point) (video)](https://youtu.be/1W3x0f_RmUo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3871)
-        - [ ] [Aduni - Algorithms - Lecture 5 (video)](https://www.youtube.com/watch?v=hm2GHwyKF1o&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=5)
-        - [ ] [Black Tree](https://en.wikipedia.org/wiki/Red%E2%80%93black_tree)
-        - [ ] [An Introduction To Binary Search And Red Black Tree](https://www.topcoder.com/community/data-science/data-science-tutorials/an-introduction-to-binary-search-and-red-black-trees/)
+        - [X] [Aduni - Algorithms - Lecture 5 (video)](https://www.youtube.com/watch?v=hm2GHwyKF1o&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=5)
         - Implement:
-            - [ ] insert 
-            - [ ] search
+            - [X] insert 
+            - [X] search
 
 - ### N-ary (K-ary, M-ary) trees
     - note: the N or K is the branching factor (max branches)
         - binary trees are a 2-ary tree, with branching factor = 2
         - 2-3 trees are 3-ary
-    - [ ] [K-Ary Tree](https://en.wikipedia.org/wiki/K-ary_tree)
+    - [X] [K-Ary Tree](https://en.wikipedia.org/wiki/K-ary_tree)
 
 ## Sorting
 
