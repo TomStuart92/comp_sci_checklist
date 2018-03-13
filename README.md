@@ -458,7 +458,7 @@ Graphs can be used to represent many problems in computer science, so this secti
     - [X] [CSE373 2012 - Lecture 11 - Graph Data Structures (video)](https://www.youtube.com/watch?v=OiXxhDrFruw&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=11)
     - [X] [CSE373 2012 - Lecture 12 - Breadth-First Search (video)](https://www.youtube.com/watch?v=g5vF8jscteo&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=12)
     - [X] [CSE373 2012 - Lecture 13 - Graph Algorithms (video)](https://www.youtube.com/watch?v=S23W6eTcqdY&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=13)
-    - [ ] [CSE373 2012 - Lecture 14 - Graph Algorithms (con't) (video)](https://www.youtube.com/watch?v=WitPBKGV0HY&index=14&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
+    - [X] [CSE373 2012 - Lecture 14 - Graph Algorithms (con't) (video)](https://www.youtube.com/watch?v=WitPBKGV0HY&index=14&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
     - [ ] [CSE373 2012 - Lecture 15 - Graph Algorithms (con't 2) (video)](https://www.youtube.com/watch?v=ia1L30l7OIg&index=15&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
     - [ ] [CSE373 2012 - Lecture 16 - Graph Algorithms (con't 3) (video)](https://www.youtube.com/watch?v=jgDOQq6iWy8&index=16&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
 
@@ -476,9 +476,6 @@ Graphs can be used to represent many problems in computer science, so this secti
     - [ ] [CS 61B 2014: Weighted graphs (video)](https://www.youtube.com/watch?v=aJjlQCFwylA&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=19)
     - [ ] [Greedy Algorithms: Minimum Spanning Tree (video)](https://www.youtube.com/watch?v=tKwnms5iRBU&index=16&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
     - [ ] [Strongly Connected Components Kosaraju's Algorithm Graph Algorithm (video)](https://www.youtube.com/watch?v=RpgcYiky7uw)
-
-- Yegge: If you get a chance, try to study up on fancier algorithms:
-    - [ ] Dijkstra's algorithm - see above - 6.006
     - [ ] A*
         - [ ] [A Search Algorithm](https://en.wikipedia.org/wiki/A*_search_algorithm)
         - [ ] [A* Pathfinding Tutorial (video)](https://www.youtube.com/watch?v=KNXfSOx4eEE)
@@ -486,20 +483,20 @@ Graphs can be used to represent many problems in computer science, so this secti
     - [ ] Kahns Algorithm
 
 - I'll implement:
-    - [ ] DFS with adjacency list (recursive)
-    - [ ] DFS with adjacency list (iterative with stack)
-    - [ ] DFS with adjacency matrix (recursive)
-    - [ ] DFS with adjacency matrix (iterative with stack)
+    - [ ] DFS with adjacency list (recursive and iterative with stack)
+    - [ ] DFS with adjacency matrix (recursive and iterative with stack)
     - [ ] BFS with adjacency list
     - [ ] BFS with adjacency matrix
-    - DFS-based algorithms (see Aduni videos above):
-        - [ ] check for cycle (needed for topological sort, since we'll check for cycle before starting)
+    -   DFS-based algorithms (see Adu ni videos above):
+          - [ ] check for cycle (needed for topological sort, since we'll check for cycle before starting)
         - [ ] topological sort
         - [ ] count connected components in a graph
         - [ ] list strongly connected components
         - [ ] check for bipartite graph
         - [ ] Dijkstra's algorithm
         - [ ] A*
+        - [ ] Kahns Algorithm
+        - [ ] Greedy Coloring multipartite trees
         - [ ] minimum spanning tree
 
 ## Even More Knowledge
@@ -831,20 +828,9 @@ Graphs can be used to represent many problems in computer science, so this secti
     - [ ] [Coursera: Algorithms on Strings](https://www.coursera.org/learn/algorithms-on-strings/home/week/1)
     - [ ] [Suffix Arrays (video)](https://www.youtube.com/watch?v=HKPrVm5FWvg)
 
----
+### General:
 
-## Final Review
 
-    This section will have shorter videos that can you watch pretty quickly to review most of the important concepts.
-    It's nice if you want a refresher often.
-    (More items will be added here)
-
-#### General:
-
-- [ ] Series of 2-3 minutes short subject videos (23 videos)
-    - [Videos](https://www.youtube.com/watch?v=r4r1DZcx1cM&list=PLmVb1OknmNJuC5POdcDv5oCS7_OUkDgpj&index=22)
-- [ ] Series of 2-5 minutes short subject videos - Michael Sambol (18 videos):
-    - [Videos](https://www.youtube.com/channel/UCzDJwLWoYCUQowF_nG3m5OQ)
 
 ---
 
@@ -970,7 +956,6 @@ Supplemental:
         - The first half is enough.
 
 - ### Emacs and vi(m)
-    - suggested by Yegge, from an old Amazon recruiting post: Familiarize yourself with a unix-based code editor
     - vi(m):
         - [Editing With vim 01 - Installation, Setup, and The Modes (video)](https://www.youtube.com/watch?v=5givLEMcINQ&index=1&list=PL13bz4SHGmRxlZVmWQ9DvXo1fEg4UdGkr)
         - [VIM Adventures](http://vim-adventures.com/)
@@ -980,16 +965,7 @@ Supplemental:
             - [The vi/vim editor - Lesson 3](https://www.youtube.com/watch?v=ZYEccA_nMaI)
             - [The vi/vim editor - Lesson 4](https://www.youtube.com/watch?v=1lYD5gwgZIA)
         - [Using Vi Instead of Emacs](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#Using_Vi_instead_of_Emacs)
-    - emacs:
-        - [Basics Emacs Tutorial (video)](https://www.youtube.com/watch?v=hbmV1bnQ-i0)
-        - set of 3 (videos):
-            - [Emacs Tutorial (Beginners) -Part 1- File commands, cut/copy/paste, cursor commands](https://www.youtube.com/watch?v=ujODL7MD04Q)
-            - [Emacs Tutorial (Beginners) -Part 2- Buffer management, search, M-x grep and rgrep modes](https://www.youtube.com/watch?v=XWpsRupJ4II)
-            - [Emacs Tutorial (Beginners) -Part 3- Expressions, Statements, ~/.emacs file and packages](https://www.youtube.com/watch?v=paSgzPso-yc)
-        - [Evil Mode: Or, How I Learned to Stop Worrying and Love Emacs (video)](https://www.youtube.com/watch?v=JWD1Fpdd4Pc)
-        - [Writing C Programs With Emacs](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#Writing_C_programs_with_Emacs)
-        - [(maybe) Org Mode In Depth: Managing Structure (video)](https://www.youtube.com/watch?v=nsGYet02bEk)
-
+   
 - ### Unix command line tools
     - suggested by Yegge, from an old Amazon recruiting post. I filled in the list below from good tools.
     - [ ] bash
@@ -1293,6 +1269,10 @@ Supplemental:
 
 Sit back and enjoy. "netflix and skill" :P
 
+- [ ] [Series of 2-3 minutes short subject videos (23 videos)](https://www.youtube.com/watch?v=r4r1DZcx1cM&list=PLmVb1OknmNJuC5POdcDv5oCS7_OUkDgpj&index=22)
+   
+- [ ] [Series of 2-5 minutes short subject videos - Michael Sambol (18 videos)](https://www.youtube.com/channel/UCzDJwLWoYCUQowF_nG3m5OQ)
+
 - [ ] [List of individual Dynamic Programming problems (each is short)](https://www.youtube.com/playlist?list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr)
 
 - [ ] [x86 Architecture, Assembly, Applications (11 videos)](https://www.youtube.com/playlist?list=PL038BE01D3BAEFDB0)
@@ -1352,68 +1332,6 @@ Sit back and enjoy. "netflix and skill" :P
 - [ ] [Mining Massive Datasets - Stanford University (94 videos)](https://www.youtube.com/playlist?list=PLLssT5z_DsK9JDLcT8T62VtzwyW9LNepV)
 
 - [ ] [Graph Theory by Sarada Herke (67 videos)](https://www.youtube.com/user/DrSaradaHerke/playlists?shelf_id=5&view=50&sort=dd)
-
-## Computer Science Courses
-
-- [Directory of Online CS Courses](https://github.com/open-source-society/computer-science)
-- [Directory of CS Courses (many with online lectures)](https://github.com/prakhar1989/awesome-courses)
-
-## Programming Language Resources
-
-- C
-    - [ANSI C Cheat Sheet](https://github.com/jwasham/google-interview-university/blob/master/extras/cheat%20sheets/C%20Reference%20Card%20(ANSI)%202.2.pdf)
-    - K&R C book (ANSI C)
-    - [Make, Clang (video)](https://www.youtube.com/watch?v=U3zCxnj2w8M)
-    - GDB:
-        - [Harvard CS50 - GDB (video)](https://www.youtube.com/watch?v=USPvePv1uzE)
-        - [Harvard CS50 - GDB (video)](https://www.youtube.com/watch?v=y5JmQItfFck)
-      - [Valgrind (video)](https://www.youtube.com/watch?v=fvTsFjDuag8)
-
-- C++
-    - [C++ Cheat Sheet](https://github.com/jwasham/google-interview-university/blob/master/extras/cheat%20sheets/Cpp_reference.pdf)
-    - [STL Cheat Sheet](https://github.com/jwasham/google-interview-university/blob/master/extras/cheat%20sheets/STL%20Quick%20Reference%201.29.pdf)
-    - basics
-    - pointers
-    - functions
-    - references
-    - templates
-    - compilation
-    - scope & linkage
-    - namespaces
-    - OOP
-    - STL
-    - [functors](http://www.cprogramming.com/tutorial/functors-function-objects-in-c++.html)
-    - [C++ at Google (video)](https://www.youtube.com/watch?v=NOCElcMcFik)
-    - [Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html)
-        - Google uses clang-format (there is a command line "style" argument: -style=google)
-    - [Efficiency with Algorithms, Performance with Data Structures (video)](https://youtu.be/fHNmRkzxHWs)
-    - [Review of C++ concepts (video)](https://www.youtube.com/watch?v=Rub-JsjMhWY)
-
-- Python
-    - [Python Cheat Sheet](https://github.com/jwasham/google-interview-university/blob/master/extras/cheat%20sheets/python-cheat-sheet-v1.pdf)
-    - [Python in One Video](https://www.youtube.com/watch?v=N4mEzFDjqtA)
-    - [Series on 3.4 (video)](https://www.youtube.com/playlist?list=PL6gx4Cwl9DGAcbMi1sH6oAMk4JHw91mC_)
-    - [Zero to Hero (video)](https://www.youtube.com/watch?v=emY34tSKXc4)
-    - [Statistics for Hackers (video)](https://www.youtube.com/watch?v=Iq9DzN6mvYA)
-    - [Faster Python (video)](https://www.youtube.com/watch?v=JDSGVvMwNM8)
-    - [CPython Walk (video)](https://www.youtube.com/watch?v=LhadeL7_EIU&list=PLzV58Zm8FuBL6OAv1Yu6AwXZrnsFbbR0S&index=6)
-    - [10 Tips for Pythonic Code (video)](https://www.youtube.com/watch?v=_O23jIXsshs)
-    - [Beyond PEP 8 -- Best practices for beautiful intelligible code (video)](https://www.youtube.com/watch?v=wf-BqAjZb8M)
-    
-- Java
-    - [Stanford CS106A - Programming Methodology (video)](https://see.stanford.edu/Course/CS106A)
-    - [Software Construction In Java (video)](https://www.edx.org/course/software-construction-java-mitx-6-005-1x)
-    - [Introduction To Programming In Java](http://introcs.cs.princeton.edu/java/home/)
-    - [Algorithms 4th Ed - Algorithm Book In Java](http://algs4.cs.princeton.edu/home/)   
-- Go
-    - [The Go programming Language](https://golang.org/)
-    - [The Go programming Language (book)](http://www.gopl.io/)
-    - [A Tour of Go](https://tour.golang.org/)
-    - [Effective Go](https://golang.org/doc/effective_go.html)
-    - [Go Wiki](https://golang.org/wiki)
-    - [Go at Google: Language Design in the Service of Software Engineering](https://talks.golang.org/2012/splash.article)
-    - [Go Proverbs](http://go-proverbs.github.io/)
-    - [Go Proverbs - Rob Pike (video)](https://www.youtube.com/watch?v=PAAkCSZUG1c)
 
 ## Other Things I've Stumbled Upon
 
