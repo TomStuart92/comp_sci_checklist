@@ -1,6 +1,6 @@
 class DictionaryWithOpenAddressing {
     private UniversalHash hashFunction;
-    private DictionaryEntry[z] data;
+    private DictionaryEntry[] data;
     private int capacity;
 
     DictionaryWithOpenAddressing(int capacity) {
