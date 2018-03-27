@@ -6,23 +6,28 @@
 #include <stdio.h>
 #include <math.h>
 
-#define RADIUS 1.0
-#define STABLE_THRESHOLD 1000000
-#define TARGET_ACCURACY 4
+#define CIRCLE_RADIUS 0.5
+#define SQUARE_SIDE_LENGTH CIRCLE_RADIUS * 2
+
+// we run the simulation until the digit in the target_accuracy'th decimal place has been stable for stable_threshold iterations. 
+#define STABLE_THRESHOLD 1000
+#define TARGET_ACCURACY 6
 
 double estimate_pi(double inside, double total)
 {
+  // (pi * r ^ 2) / (2(r ^ 2)) = inside / total
+  // thus pi = 4 * (inside / total)
   return 4 * ( inside / total );
 }
 
-double random_point() 
+double random_number() 
 {
-   return (double) rand() / (double) RAND_MAX ;
+   return ((double) rand() / (double) RAND_MAX - 0.5) * SQUARE_SIDE_LENGTH;
 }
 
 bool in_circle(double x, double y)
 {
-  return pow(x, 2) + pow(y, 2) <= pow(RADIUS, 2);
+  return pow(x, 2) + pow(y, 2) <= pow(CIRCLE_RADIUS, 2);
 }
 
 int extract_target_decimal(double pi)
@@ -42,8 +47,9 @@ int main()
   while(stable_count < STABLE_THRESHOLD) 
   {
     total++;
-    double x = random_point();
-    double y = random_point();
+    double x = random_number();
+    double y = random_number();
+
     if(in_circle(x, y))
       inside++;
     pi = estimate_pi(inside, total);
