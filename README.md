@@ -482,11 +482,11 @@ Graphs can be used to represent many problems in computer science, so this secti
 - I'll implement:
     - [X] DFS with adjacency list 
     - [X] DFS with adjacency matrix
-    - [ ] BFS with adjacency list
-    - [ ] BFS with adjacency matrix
+    - [X] BFS with adjacency list
+    - [X] BFS with adjacency matrix
     - [ ] DFS-based algorithms
-        - [ ] check for cycle (needed for topological sort, since we'll check for cycle before starting)
-        - [ ] topological sort
+        - [X] check for cycle (needed for topological sort, since we'll check for cycle before starting)
+        - [X] topological sort
         - [ ] count connected components in a graph
         - [ ] list strongly connected components
         - [ ] check for bipartite graph
