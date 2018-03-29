@@ -487,8 +487,7 @@ Graphs can be used to represent many problems in computer science, so this secti
     - [ ] DFS-based algorithms
         - [X] check for cycle (needed for topological sort, since we'll check for cycle before starting)
         - [X] topological sort
-        - [ ] count connected components in a graph
-        - [ ] list strongly connected components
+        - [X] list strongly connected components
         - [ ] check for bipartite graph
         - [ ] Dijkstra's algorithm
         - [ ] Bellman-Ford
@@ -496,7 +495,7 @@ Graphs can be used to represent many problems in computer science, so this secti
         - [ ] Kahns Algorithm
         - [ ] Greedy Coloring multipartite trees
         - [ ] prims algorithm - minimum spanning tree
-        - [ ] Kosaraju's Algorithm
+        - [X] Kosaraju's Algorithm
 
 ## Even More Knowledge
 

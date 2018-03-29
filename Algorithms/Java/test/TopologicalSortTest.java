@@ -2,16 +2,16 @@ import org.junit.jupiter.api.Test;
 
 import java.util.Stack;
 
-class GraphTest {
+class TopologicalSortTest {
   @Test
   void shouldAddEdge() {
-    Graph test = new Graph(2);
+    TopologicalSort test = new TopologicalSort(2);
     test.addEdge(0, 1);
   }
 
   @Test
   void shouldTopologicalSort() {
-    Graph test = new Graph(6);
+    TopologicalSort test = new TopologicalSort(6);
     test.addEdge(5, 2);
     test.addEdge(5, 0);
     test.addEdge(4, 0);

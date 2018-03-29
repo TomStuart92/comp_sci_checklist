@@ -2,11 +2,11 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Stack;
 
-class Graph {
+class TopologicalSort {
   private final int numberOfVertices;
   private final ArrayList<LinkedList<Integer>> adjacencyList;
 
-  Graph(int numberOfVertices) {
+  TopologicalSort(int numberOfVertices) {
     this.numberOfVertices = numberOfVertices;
     adjacencyList = new ArrayList<>(numberOfVertices);
     for(int i = 0; i < numberOfVertices; i++)
