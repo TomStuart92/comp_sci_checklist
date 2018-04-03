@@ -475,7 +475,7 @@ Graphs can be used to represent many problems in computer science, so this secti
     - [X] [CS 61B 2014 (starting at 58:09) (video)](https://youtu.be/dgjX4HdMI-Q?list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&t=3489)
     - [X] [CS 61B 2014: Weighted graphs (video)](https://www.youtube.com/watch?v=aJjlQCFwylA&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=19)
     - [X] [Greedy Algorithms: Minimum Spanning Tree (video)](https://www.youtube.com/watch?v=tKwnms5iRBU&index=16&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
-    - [ ] [Strongly Connected Components Kosaraju's Algorithm Graph Algorithm (video)](https://www.youtube.com/watch?v=RpgcYiky7uw)
+    - [X] [Strongly Connected Components Kosaraju's Algorithm Graph Algorithm (video)](https://www.youtube.com/watch?v=RpgcYiky7uw)
     - [ ] [A* Pathfinding Tutorial (video)](https://www.youtube.com/watch?v=KNXfSOx4eEE)
     - [ ] [A* Pathfinding (E01: algorithm explanation) (video)](https://www.youtube.com/watch?v=-L-WgKMFuhE)
 
@@ -488,14 +488,14 @@ Graphs can be used to represent many problems in computer science, so this secti
         - [X] check for cycle (needed for topological sort, since we'll check for cycle before starting)
         - [X] topological sort
         - [X] list strongly connected components
-        - [ ] check for bipartite graph
+        - [X] Kosaraju's Algorithm
+        - [X] check for bipartite graph
         - [ ] Dijkstra's algorithm
         - [ ] Bellman-Ford
         - [ ] A*
         - [ ] Kahns Algorithm
         - [ ] Greedy Coloring multipartite trees
         - [ ] prims algorithm - minimum spanning tree
-        - [X] Kosaraju's Algorithm
 
 ## Even More Knowledge
 
