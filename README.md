@@ -490,8 +490,8 @@ Graphs can be used to represent many problems in computer science, so this secti
         - [X] list strongly connected components
         - [X] Kosaraju's Algorithm
         - [X] check for bipartite graph
-        - [ ] Dijkstra's algorithm
-        - [ ] Bellman-Ford
+        - [X] Dijkstra's algorithm
+        - [X] Bellman-Ford
         - [ ] A*
         - [ ] Kahns Algorithm
         - [ ] Greedy Coloring multipartite trees
