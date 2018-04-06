@@ -484,7 +484,7 @@ Graphs can be used to represent many problems in computer science, so this secti
     - [X] DFS with adjacency matrix
     - [X] BFS with adjacency list
     - [X] BFS with adjacency matrix
-    - [ ] DFS-based algorithms
+    - [X] DFS-based algorithms
         - [X] check for cycle (needed for topological sort, since we'll check for cycle before starting)
         - [X] topological sort
         - [X] list strongly connected components
@@ -496,18 +496,18 @@ Graphs can be used to represent many problems in computer science, so this secti
 ## Even More Knowledge
 
 - ### Networking
-    - [ ] [Implement a TCP server in C](https://ops.tips/blog/a-tcp-server-in-c/)
+    - [X] [Implement a TCP server in C](https://ops.tips/blog/a-tcp-server-in-c/)
 
 - ### Recursion
     - [ ] Stanford lectures on recursion & backtracking:
-        - [ ] [Lecture 8 | Programming Abstractions (video)](https://www.youtube.com/watch?v=gl3emqCuueQ&list=PLFE6E58F856038C69&index=8)
+        - [X] [Lecture 8 | Programming Abstractions (video)](https://www.youtube.com/watch?v=gl3emqCuueQ&list=PLFE6E58F856038C69&index=8)
         - [ ] [Lecture 9 | Programming Abstractions (video)](https://www.youtube.com/watch?v=uFJhEPrbycQ&list=PLFE6E58F856038C69&index=9)
         - [ ] [Lecture 10 | Programming Abstractions (video)](https://www.youtube.com/watch?v=NdF1QDTRkck&index=10&list=PLFE6E58F856038C69)
         - [ ] [Lecture 11 | Programming Abstractions (video)](https://www.youtube.com/watch?v=p-gpaIGRCQI&list=PLFE6E58F856038C69&index=11)
     - when it is appropriate to use it
     - how is tail recursion better than not?
-        - [ ] [What Is Tail Recursion Why Is It So Bad?](https://www.quora.com/What-is-tail-recursion-Why-is-it-so-bad)
-        - [ ] [Tail Recursion (video)](https://www.youtube.com/watch?v=L1jjXGfxozc)
+        - [X] [What Is Tail Recursion Why Is It So Bad?](https://www.quora.com/What-is-tail-recursion-Why-is-it-so-bad)
+        - [X] [Tail Recursion (video)](https://www.youtube.com/watch?v=L1jjXGfxozc)
 
 - ### Dynamic Programming
     - This subject can be pretty difficult, as each DP soluble problem must be defined as a recursion relation, and coming up with it can be tricky.
