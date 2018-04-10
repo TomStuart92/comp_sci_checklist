@@ -462,7 +462,7 @@ Graphs can be used to represent many problems in computer science, so this secti
     - [X] [CSE373 2012 - Lecture 15 - Graph Algorithms (con't 2) (video)](https://www.youtube.com/watch?v=ia1L30l7OIg&index=15&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
     - [X] [CSE373 2012 - Lecture 16 - Graph Algorithms (con't 3) (video)](https://www.youtube.com/watch?v=jgDOQq6iWy8&index=16&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
 
-- [ ] Graphs (review and more):
+- [X] Graphs (review and more):
 
     - [X] [6.006 Single-Source Shortest Paths Problem (video)](https://www.youtube.com/watch?v=Aa2sqUhIn-E&index=15&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
     - [X] [6.006 Dijkstra (video)](https://www.youtube.com/watch?v=2E7MmKv0Y24&index=16&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
@@ -475,28 +475,23 @@ Graphs can be used to represent many problems in computer science, so this secti
     - [X] [CS 61B 2014 (starting at 58:09) (video)](https://youtu.be/dgjX4HdMI-Q?list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&t=3489)
     - [X] [CS 61B 2014: Weighted graphs (video)](https://www.youtube.com/watch?v=aJjlQCFwylA&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=19)
     - [X] [Greedy Algorithms: Minimum Spanning Tree (video)](https://www.youtube.com/watch?v=tKwnms5iRBU&index=16&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
-    - [ ] [Strongly Connected Components Kosaraju's Algorithm Graph Algorithm (video)](https://www.youtube.com/watch?v=RpgcYiky7uw)
-    - [ ] [A* Pathfinding Tutorial (video)](https://www.youtube.com/watch?v=KNXfSOx4eEE)
-    - [ ] [A* Pathfinding (E01: algorithm explanation) (video)](https://www.youtube.com/watch?v=-L-WgKMFuhE)
+    - [X] [Strongly Connected Components Kosaraju's Algorithm Graph Algorithm (video)](https://www.youtube.com/watch?v=RpgcYiky7uw)
+    - [X] [A* Pathfinding Tutorial (video)](https://www.youtube.com/watch?v=KNXfSOx4eEE)
+    - [X] [A* Pathfinding (E01: algorithm explanation) (video)](https://www.youtube.com/watch?v=-L-WgKMFuhE)
 
 - I'll implement:
     - [X] DFS with adjacency list 
-    - [ ] DFS with adjacency matrix
-    - [ ] BFS with adjacency list
-    - [ ] BFS with adjacency matrix
-    - [ ] DFS-based algorithms (see Adu ni videos above):
-        - [ ] check for cycle (needed for topological sort, since we'll check for cycle before starting)
-        - [ ] topological sort
-        - [ ] count connected components in a graph
-        - [ ] list strongly connected components
-        - [ ] check for bipartite graph
-        - [ ] Dijkstra's algorithm
-        - [ ] Bellman-Ford
-        - [ ] A*
-        - [ ] Kahns Algorithm
-        - [ ] Greedy Coloring multipartite trees
-        - [ ] prims algorithm - minimum spanning tree
-        - [ ] Kosaraju's Algorithm
+    - [X] DFS with adjacency matrix
+    - [X] BFS with adjacency list
+    - [X] BFS with adjacency matrix
+    - [ ] DFS-based algorithms
+        - [X] check for cycle (needed for topological sort, since we'll check for cycle before starting)
+        - [X] topological sort
+        - [X] list strongly connected components
+        - [X] Kosaraju's Algorithm
+        - [X] check for bipartite graph
+        - [X] Dijkstra's algorithm
+        - [X] Bellman-Ford
 
 ## Even More Knowledge
 
@@ -1340,3 +1335,7 @@ Sit back and enjoy. "netflix and skill" :P
 - Prims Algorithm
 - Huffmans Algorithm
 - Web sockets
+- A*
+- Kahns Algorithm
+- Greedy Coloring multipartite trees
+- Prims algorithm - minimum spanning tree
