@@ -5,7 +5,8 @@ import java.util.Map;
 
 public class SimpleCache <K, V> extends LinkedHashMap<K, V> {
     private final int cacheSize;
-
+    private static final long serialVersionUID = 42L;
+    
     private SimpleCache(int cacheSize) {
         super();
         this.cacheSize = cacheSize;

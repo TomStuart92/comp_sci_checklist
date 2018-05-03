@@ -513,8 +513,8 @@ Graphs can be used to represent many problems in computer science, so this secti
     - This subject can be pretty difficult, as each DP soluble problem must be defined as a recursion relation, and coming up with it can be tricky.
     - I suggest looking at many examples of DP problems until you have a solid understanding of the pattern involved.
     - [ ] Videos:
-        - [ ] [6.006 Dynamic Programming I (video)](https://www.youtube.com/watch?v=OQ5jsbhAv_M&index=19&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
-        - [ ] [6.006 Dynamic Programming II (video)](https://www.youtube.com/watch?v=ENyox7kNKeY&index=20&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
+        - [X] [6.006 Dynamic Programming I (video)](https://www.youtube.com/watch?v=OQ5jsbhAv_M&index=19&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
+        - [X] [6.006 Dynamic Programming II (video)](https://www.youtube.com/watch?v=ENyox7kNKeY&index=20&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
         - [ ] [6.006 Dynamic Programming III(video)](https://www.youtube.com/watch?v=ocZMDMZwhCY&index=21&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
         - [ ] [6.006 Dynamic Programming IV (video)](https://www.youtube.com/watch?v=tp4_UXaVyx8&index=22&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
         - [ ] [Simonson: Dynamic Programming 0 (starts at 59:18) (video)](https://youtu.be/J5aJEcOr6Eo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3558)
@@ -625,7 +625,9 @@ Graphs can be used to represent many problems in computer science, so this secti
             - simplicity and robustness
             - tradeoffs
             - performance analysis and optimization
-    - [ ] **START HERE**: [System Design from HiredInTech](http://www.hiredintech.com/system-design/)
+    - [X] **START HERE**: [System Design from HiredInTech](http://www.hiredintech.com/system-design/)
+    - [ ] [CS75 (Summer 2012) Lecture 9 Scalability Harvard Web Development David Malan](https://www.youtube.com/watch?v=-W9F__D3oY4)
+    - [ ] [Database Sharding] (http://highscalability.com/blog/2009/8/6/an-unorthodox-approach-to-database-design-the-coming-of-the.html)
     - [ ] [How Do I Prepare To Answer Design Questions In A Technical Inverview?](https://www.quora.com/How-do-I-prepare-to-answer-design-questions-in-a-technical-interview?redirected_qid=1500023)
     - [ ] [8 Things You Need to Know Before a System Design Interview](http://blog.gainlo.co/index.php/2015/10/22/8-things-you-need-to-know-before-system-design-interviews/)
     - [ ] [Algorithm design](http://www.hiredintech.com/algorithm-design/)
@@ -642,26 +644,6 @@ Graphs can be used to represent many problems in computer science, so this secti
         - [paper](http://research.microsoft.com/en-us/um/people/lamport/pubs/paxos-simple.pdf)
     - [ ] [Consistent Hashing](http://www.tom-e-white.com/2007/11/consistent-hashing.html)
     - [ ] [NoSQL Patterns](http://horicky.blogspot.com/2009/11/nosql-patterns.html)
-    - [ ] [Optional: UML 2.0 Series (vido)](https://www.youtube.com/watch?v=OkC7HKtiZC0&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc)
-    - [ ] OOSE: Software Dev Using UML and Java (21 videos):
-        - Can skip this if you have a great grasp of OO and OO design practices.
-        - [OOSE: Software Dev Using UML and Java](https://www.youtube.com/playlist?list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO)
-    - [ ] SOLID OOP Principles:
-        - [ ] [Bob Martin SOLID Principles of Object Oriented and Agile Design (video)](https://www.youtube.com/watch?v=TMuno5RZNeE)
-        - [ ] [SOLID Design Patterns in C# (video)](https://www.youtube.com/playlist?list=PL8m4NUhTQU48oiGCSgCP1FiJEcg_xJzyQ)
-        - [ ] [SOLID Principles (video)](https://www.youtube.com/playlist?list=PL4CE9F710017EA77A)
-        - [ ] S - [Single Responsibility Principle](http://www.oodesign.com/single-responsibility-principle.html) | [Single responsibility to each Object](http://www.javacodegeeks.com/2011/11/solid-single-responsibility-principle.html)
-            - [more flavor](https://docs.google.com/open?id=0ByOwmqah_nuGNHEtcU5OekdDMkk)
-        - [ ] O - [Open/Closed Principal](http://www.oodesign.com/open-close-principle.html)  | [On production level Objects are ready for extension for not for modification](https://en.wikipedia.org/wiki/Open/closed_principle)
-            - [more flavor](http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgN2M5MTkwM2EtNWFkZC00ZTI3LWFjZTUtNTFhZGZiYmUzODc1&hl=en)
-        - [ ] L - [Liskov Substitution Principal](http://www.oodesign.com/liskov-s-substitution-principle.html) | [Base Class and Derived class follow ‘IS A’ principal](http://stackoverflow.com/questions/56860/what-is-the-liskov-substitution-principle)
-            - [more flavor](http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgNzAzZjA5ZmItNjU3NS00MzQ5LTkwYjMtMDJhNDU5ZTM0MTlh&hl=en)
-        - [ ] I - [Interface segregation principle](http://www.oodesign.com/interface-segregation-principle.html) | clients should not be forced to implement interfaces they don't use
-            - [Interface Segregation Principle in 5 minutes (video)](https://www.youtube.com/watch?v=3CtAfl7aXAQ)
-            - [more flavor](http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgOTViYjJhYzMtMzYxMC00MzFjLWJjMzYtOGJiMDc5N2JkYmJi&hl=en)
-        - [ ] D -[Dependency Inversion principle](http://www.oodesign.com/dependency-inversion-principle.html) | Reduce the dependency In composition of objects.
-            - [Why Is The Dependency Inversion Principle And Why Is It Important](http://stackoverflow.com/questions/62539/what-is-the-dependency-inversion-principle-and-why-is-it-important)
-            - [more flavor](http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgMjdlMWIzNGUtZTQ0NC00ZjQ5LTkwYzQtZjRhMDRlNTQ3ZGMz&hl=en)
     - [ ] Scalability:
         - [ ] [Great overview (video)](https://www.youtube.com/watch?v=-W9F__D3oY4)
         - [ ] Short series:
@@ -720,7 +702,7 @@ Graphs can be used to represent many problems in computer science, so this secti
             - [Timelines at Scale](https://www.infoq.com/presentations/Twitter-Timeline-Scalability)
         - For even more, see "Mining Massive Datasets" video series in the Video Series section.
     - [ ] Practicing the system design process: Here are some ideas to try working through on paper, each with some documentation on how it was handled in the real world:
-        - review: [System Design from HiredInTech](http://www.hiredintech.com/system-design/)
+        - review: [System Design from HiredInTech](https://www.hiredintech.com/classrooms/system-design/lesson/63)
         - [cheat sheet](https://github.com/jwasham/google-interview-university/blob/master/extras/cheat%20sheets/system-design.pdf)
         - flow:
             1. Understand the problem and scope:
@@ -742,6 +724,8 @@ Graphs can be used to represent many problems in computer science, so this secti
                 - rough overview of any key algorithm that drives the service
                 - consider bottlenecks and determine solutions
         - Exercises:
+            - [Twitter] (https://www.hiredintech.com/classrooms/system-design/lesson/67)
+            - [Summarization] (https://www.hiredintech.com/classrooms/system-design/lesson/101)
             - [Design a CDN network: old article](http://repository.cmu.edu/cgi/viewcontent.cgi?article=2112&context=compsci)
             - [Design a random unique ID generation system](https://blog.twitter.com/2010/announcing-snowflake)
             - [Design an online multiplayer card game](http://www.indieflashblog.com/how-to-create-an-asynchronous-multiplayer-game.html)
@@ -797,6 +781,25 @@ Graphs can be used to represent many problems in computer science, so this secti
         - [ ] [Tao Of Testing](http://jasonpolites.github.io/tao-of-testing/ch3-1.1.html)
     - [ ] [How to write tests](http://jasonpolites.github.io/tao-of-testing/ch4-1.1.html)
 
+- ### OOP
+    - [OOSE: Software Dev Using UML and Java](https://www.youtube.com/playlist?list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO)
+    - [ ] SOLID OOP Principles:
+        - [ ] [Bob Martin SOLID Principles of Object Oriented and Agile Design (video)](https://www.youtube.com/watch?v=TMuno5RZNeE)
+        - [ ] [SOLID Design Patterns in C# (video)](https://www.youtube.com/playlist?list=PL8m4NUhTQU48oiGCSgCP1FiJEcg_xJzyQ)
+        - [ ] [SOLID Principles (video)](https://www.youtube.com/playlist?list=PL4CE9F710017EA77A)
+        - [ ] S - [Single Responsibility Principle](http://www.oodesign.com/single-responsibility-principle.html) | [Single responsibility to each Object](http://www.javacodegeeks.com/2011/11/solid-single-responsibility-principle.html)
+            - [more flavor](https://docs.google.com/open?id=0ByOwmqah_nuGNHEtcU5OekdDMkk)
+        - [ ] O - [Open/Closed Principal](http://www.oodesign.com/open-close-principle.html)  | [On production level Objects are ready for extension for not for modification](https://en.wikipedia.org/wiki/Open/closed_principle)
+            - [more flavor](http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgN2M5MTkwM2EtNWFkZC00ZTI3LWFjZTUtNTFhZGZiYmUzODc1&hl=en)
+        - [ ] L - [Liskov Substitution Principal](http://www.oodesign.com/liskov-s-substitution-principle.html) | [Base Class and Derived class follow ‘IS A’ principal](http://stackoverflow.com/questions/56860/what-is-the-liskov-substitution-principle)
+            - [more flavor](http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgNzAzZjA5ZmItNjU3NS00MzQ5LTkwYjMtMDJhNDU5ZTM0MTlh&hl=en)
+        - [ ] I - [Interface segregation principle](http://www.oodesign.com/interface-segregation-principle.html) | clients should not be forced to implement interfaces they don't use
+            - [Interface Segregation Principle in 5 minutes (video)](https://www.youtube.com/watch?v=3CtAfl7aXAQ)
+            - [more flavor](http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgOTViYjJhYzMtMzYxMC00MzFjLWJjMzYtOGJiMDc5N2JkYmJi&hl=en)
+        - [ ] D -[Dependency Inversion principle](http://www.oodesign.com/dependency-inversion-principle.html) | Reduce the dependency In composition of objects.
+            - [Why Is The Dependency Inversion Principle And Why Is It Important](http://stackoverflow.com/questions/62539/what-is-the-dependency-inversion-principle-and-why-is-it-important)
+            - [more flavor](http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgMjdlMWIzNGUtZTQ0NC00ZjQ5LTkwYzQtZjRhMDRlNTQ3ZGMz&hl=en)
+
 - ### Scheduling
     - in an OS, how it works
     - can be gleaned from Operating System videos
@@ -821,8 +824,8 @@ Graphs can be used to represent many problems in computer science, so this secti
     - [ ] [Coursera: Algorithms on Strings](https://www.coursera.org/learn/algorithms-on-strings/home/week/1)
     - [ ] [Suffix Arrays (video)](https://www.youtube.com/watch?v=HKPrVm5FWvg)
 
-### General:
-
+### General
+- [ ] [Algorithm Design](https://www.hiredintech.com/classrooms/algorithm-design)
 
 
 ---
@@ -1339,3 +1342,4 @@ Sit back and enjoy. "netflix and skill" :P
 - Kahns Algorithm
 - Greedy Coloring multipartite trees
 - Prims algorithm - minimum spanning tree
+- [CPU Caches] (https://software.rajivprab.com/2018/04/29/myths-programmers-believe-about-cpu-caches/)
