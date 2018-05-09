@@ -515,9 +515,9 @@ Graphs can be used to represent many problems in computer science, so this secti
     - [ ] Videos:
         - [X] [6.006 Dynamic Programming I (video)](https://www.youtube.com/watch?v=OQ5jsbhAv_M&index=19&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
         - [X] [6.006 Dynamic Programming II (video)](https://www.youtube.com/watch?v=ENyox7kNKeY&index=20&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
-        - [ ] [6.006 Dynamic Programming III(video)](https://www.youtube.com/watch?v=ocZMDMZwhCY&index=21&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
-        - [ ] [6.006 Dynamic Programming IV (video)](https://www.youtube.com/watch?v=tp4_UXaVyx8&index=22&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
-        - [ ] [Simonson: Dynamic Programming 0 (starts at 59:18) (video)](https://youtu.be/J5aJEcOr6Eo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3558)
+        - [X] [6.006 Dynamic Programming III(video)](https://www.youtube.com/watch?v=ocZMDMZwhCY&index=21&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
+        - [X] [6.006 Dynamic Programming IV (video)](https://www.youtube.com/watch?v=tp4_UXaVyx8&index=22&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
+        - [X] [Simonson: Dynamic Programming 0 (starts at 59:18) (video)](https://youtu.be/J5aJEcOr6Eo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3558)
         - [ ] [Simonson: Dynamic Programming I - Lecture 11 (video)](https://www.youtube.com/watch?v=0EzHjQ_SOeU&index=11&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm)
         - [ ] [Simonson: Dynamic programming II - Lecture 12 (video)](https://www.youtube.com/watch?v=v1qiRwuJU7g&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=12)
         - [ ] List of individual DP problems (each is short):
@@ -627,10 +627,9 @@ Graphs can be used to represent many problems in computer science, so this secti
             - performance analysis and optimization
     - [X] **START HERE**: [System Design from HiredInTech](http://www.hiredintech.com/system-design/)
     - [ ] [CS75 (Summer 2012) Lecture 9 Scalability Harvard Web Development David Malan](https://www.youtube.com/watch?v=-W9F__D3oY4)
-    - [ ] [Database Sharding] (http://highscalability.com/blog/2009/8/6/an-unorthodox-approach-to-database-design-the-coming-of-the.html)
-    - [ ] [How Do I Prepare To Answer Design Questions In A Technical Inverview?](https://www.quora.com/How-do-I-prepare-to-answer-design-questions-in-a-technical-interview?redirected_qid=1500023)
-    - [ ] [8 Things You Need to Know Before a System Design Interview](http://blog.gainlo.co/index.php/2015/10/22/8-things-you-need-to-know-before-system-design-interviews/)
-    - [ ] [Algorithm design](http://www.hiredintech.com/algorithm-design/)
+    - [X] [Database Sharding] (http://highscalability.com/blog/2009/8/6/an-unorthodox-approach-to-database-design-the-coming-of-the.html)
+    - [X] [How Do I Prepare To Answer Design Questions In A Technical Inverview?](https://www.quora.com/How-do-I-prepare-to-answer-design-questions-in-a-technical-interview?redirected_qid=1500023)
+    - [X] [8 Things You Need to Know Before a System Design Interview](http://blog.gainlo.co/index.php/2015/10/22/8-things-you-need-to-know-before-system-design-interviews/)
     - [ ] [Database Normalization - 1NF, 2NF, 3NF and 4NF (video)](https://www.youtube.com/watch?v=UrYLYV7WSHM)
     - [ ] [System Design Interview](https://github.com/checkcheckzz/system-design-interview) - There are a lot of resources in this one. Look through the articles and examples. I put some of them below.
     - [ ] [How to ace a systems design interview](http://www.palantir.com/2011/10/how-to-rock-a-systems-design-interview/)
@@ -645,7 +644,6 @@ Graphs can be used to represent many problems in computer science, so this secti
     - [ ] [Consistent Hashing](http://www.tom-e-white.com/2007/11/consistent-hashing.html)
     - [ ] [NoSQL Patterns](http://horicky.blogspot.com/2009/11/nosql-patterns.html)
     - [ ] Scalability:
-        - [ ] [Great overview (video)](https://www.youtube.com/watch?v=-W9F__D3oY4)
         - [ ] Short series:
             - [Clones](http://www.lecloud.net/post/7295452622/scalability-for-dummies-part-1-clones)
             - [Database](http://www.lecloud.net/post/7994751381/scalability-for-dummies-part-2-database)
@@ -1343,3 +1341,4 @@ Sit back and enjoy. "netflix and skill" :P
 - Greedy Coloring multipartite trees
 - Prims algorithm - minimum spanning tree
 - [CPU Caches] (https://software.rajivprab.com/2018/04/29/myths-programmers-believe-about-cpu-caches/)
+- [Algorithm design](http://www.hiredintech.com/algorithm-design/)

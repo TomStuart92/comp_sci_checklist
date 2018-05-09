@@ -27,3 +27,4 @@ public class SimpleCache <K, V> extends LinkedHashMap<K, V> {
         System.out.println(test.containsKey(2));
     }
 }
+ 
