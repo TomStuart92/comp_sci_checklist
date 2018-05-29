@@ -34,7 +34,7 @@ public class Knapsack {
     for(int item = 1; item <= numberOfItems; item++) {
       for(int weight = 1; weight <= maxWeight; weight++) {
         if(weights[item - 1] <= weight) {
-          V[item][weight] = Math.max(
+          V[item][weight] = max(
               values[item - 1] + V[item - 1][weight - weights[item - 1]],  // include item
               V[item - 1][weight]     // exclude item
           );
